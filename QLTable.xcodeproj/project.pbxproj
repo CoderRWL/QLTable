@@ -1,0 +1,384 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB21F6212513C29D00005D1D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB21F6202513C29D00005D1D /* AppDelegate.m */; };
+		FB21F6242513C29D00005D1D /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB21F6232513C29D00005D1D /* SceneDelegate.m */; };
+		FB21F6272513C29D00005D1D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB21F6262513C29D00005D1D /* ViewController.m */; };
+		FB21F62A2513C29D00005D1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB21F6282513C29D00005D1D /* Main.storyboard */; };
+		FB21F62C2513C2A300005D1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB21F62B2513C2A300005D1D /* Assets.xcassets */; };
+		FB21F62F2513C2A300005D1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB21F62D2513C2A300005D1D /* LaunchScreen.storyboard */; };
+		FB21F6322513C2A300005D1D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB21F6312513C2A300005D1D /* main.m */; };
+		FB21F6412513C31300005D1D /* QLCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB21F63A2513C31300005D1D /* QLCell.xib */; };
+		FB21F6422513C31300005D1D /* QLCellModle.m in Sources */ = {isa = PBXBuildFile; fileRef = FB21F63B2513C31300005D1D /* QLCellModle.m */; };
+		FB21F6432513C31300005D1D /* QLCocell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB21F63D2513C31300005D1D /* QLCocell.xib */; };
+		FB21F6442513C31300005D1D /* QLCocell.m in Sources */ = {isa = PBXBuildFile; fileRef = FB21F63E2513C31300005D1D /* QLCocell.m */; };
+		FB21F6452513C31300005D1D /* QLCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FB21F6402513C31300005D1D /* QLCell.m */; };
+		FB21F6482513C34C00005D1D /* QLTable.m in Sources */ = {isa = PBXBuildFile; fileRef = FB21F6472513C34C00005D1D /* QLTable.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FB21F61C2513C29D00005D1D /* QLTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QLTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB21F61F2513C29D00005D1D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FB21F6202513C29D00005D1D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FB21F6222513C29D00005D1D /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		FB21F6232513C29D00005D1D /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		FB21F6252513C29D00005D1D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FB21F6262513C29D00005D1D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FB21F6292513C29D00005D1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB21F62B2513C2A300005D1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB21F62E2513C2A300005D1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB21F6302513C2A300005D1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB21F6312513C2A300005D1D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FB21F6392513C31300005D1D /* QLCocell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QLCocell.h; sourceTree = "<group>"; };
+		FB21F63A2513C31300005D1D /* QLCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QLCell.xib; sourceTree = "<group>"; };
+		FB21F63B2513C31300005D1D /* QLCellModle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QLCellModle.m; sourceTree = "<group>"; };
+		FB21F63C2513C31300005D1D /* QLCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QLCell.h; sourceTree = "<group>"; };
+		FB21F63D2513C31300005D1D /* QLCocell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QLCocell.xib; sourceTree = "<group>"; };
+		FB21F63E2513C31300005D1D /* QLCocell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QLCocell.m; sourceTree = "<group>"; };
+		FB21F63F2513C31300005D1D /* QLCellModle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QLCellModle.h; sourceTree = "<group>"; };
+		FB21F6402513C31300005D1D /* QLCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QLCell.m; sourceTree = "<group>"; };
+		FB21F6462513C34C00005D1D /* QLTable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QLTable.h; sourceTree = "<group>"; };
+		FB21F6472513C34C00005D1D /* QLTable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QLTable.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB21F6192513C29D00005D1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB21F6132513C29D00005D1D = {
+			isa = PBXGroup;
+			children = (
+				FB21F61E2513C29D00005D1D /* QLTable */,
+				FB21F61D2513C29D00005D1D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB21F61D2513C29D00005D1D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB21F61C2513C29D00005D1D /* QLTable.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB21F61E2513C29D00005D1D /* QLTable */ = {
+			isa = PBXGroup;
+			children = (
+				FB21F6382513C31300005D1D /* QLTable */,
+				FB21F61F2513C29D00005D1D /* AppDelegate.h */,
+				FB21F6202513C29D00005D1D /* AppDelegate.m */,
+				FB21F6222513C29D00005D1D /* SceneDelegate.h */,
+				FB21F6232513C29D00005D1D /* SceneDelegate.m */,
+				FB21F6252513C29D00005D1D /* ViewController.h */,
+				FB21F6262513C29D00005D1D /* ViewController.m */,
+				FB21F6282513C29D00005D1D /* Main.storyboard */,
+				FB21F62B2513C2A300005D1D /* Assets.xcassets */,
+				FB21F62D2513C2A300005D1D /* LaunchScreen.storyboard */,
+				FB21F6302513C2A300005D1D /* Info.plist */,
+				FB21F6312513C2A300005D1D /* main.m */,
+			);
+			path = QLTable;
+			sourceTree = "<group>";
+		};
+		FB21F6382513C31300005D1D /* QLTable */ = {
+			isa = PBXGroup;
+			children = (
+				FB21F6392513C31300005D1D /* QLCocell.h */,
+				FB21F63E2513C31300005D1D /* QLCocell.m */,
+				FB21F63D2513C31300005D1D /* QLCocell.xib */,
+				FB21F63C2513C31300005D1D /* QLCell.h */,
+				FB21F6402513C31300005D1D /* QLCell.m */,
+				FB21F63A2513C31300005D1D /* QLCell.xib */,
+				FB21F63F2513C31300005D1D /* QLCellModle.h */,
+				FB21F63B2513C31300005D1D /* QLCellModle.m */,
+				FB21F6462513C34C00005D1D /* QLTable.h */,
+				FB21F6472513C34C00005D1D /* QLTable.m */,
+			);
+			path = QLTable;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB21F61B2513C29D00005D1D /* QLTable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB21F6352513C2A300005D1D /* Build configuration list for PBXNativeTarget "QLTable" */;
+			buildPhases = (
+				FB21F6182513C29D00005D1D /* Sources */,
+				FB21F6192513C29D00005D1D /* Frameworks */,
+				FB21F61A2513C29D00005D1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QLTable;
+			productName = QLTable;
+			productReference = FB21F61C2513C29D00005D1D /* QLTable.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB21F6142513C29D00005D1D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = " RWLi";
+				TargetAttributes = {
+					FB21F61B2513C29D00005D1D = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = FB21F6172513C29D00005D1D /* Build configuration list for PBXProject "QLTable" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB21F6132513C29D00005D1D;
+			productRefGroup = FB21F61D2513C29D00005D1D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB21F61B2513C29D00005D1D /* QLTable */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB21F61A2513C29D00005D1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB21F62F2513C2A300005D1D /* LaunchScreen.storyboard in Resources */,
+				FB21F6412513C31300005D1D /* QLCell.xib in Resources */,
+				FB21F6432513C31300005D1D /* QLCocell.xib in Resources */,
+				FB21F62C2513C2A300005D1D /* Assets.xcassets in Resources */,
+				FB21F62A2513C29D00005D1D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB21F6182513C29D00005D1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB21F6422513C31300005D1D /* QLCellModle.m in Sources */,
+				FB21F6482513C34C00005D1D /* QLTable.m in Sources */,
+				FB21F6272513C29D00005D1D /* ViewController.m in Sources */,
+				FB21F6212513C29D00005D1D /* AppDelegate.m in Sources */,
+				FB21F6442513C31300005D1D /* QLCocell.m in Sources */,
+				FB21F6322513C2A300005D1D /* main.m in Sources */,
+				FB21F6452513C31300005D1D /* QLCell.m in Sources */,
+				FB21F6242513C29D00005D1D /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FB21F6282513C29D00005D1D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB21F6292513C29D00005D1D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB21F62D2513C2A300005D1D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB21F62E2513C2A300005D1D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB21F6332513C2A300005D1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FB21F6342513C2A300005D1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB21F6362513C2A300005D1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QLTable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = none.QLTable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB21F6372513C2A300005D1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QLTable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = none.QLTable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB21F6172513C29D00005D1D /* Build configuration list for PBXProject "QLTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB21F6332513C2A300005D1D /* Debug */,
+				FB21F6342513C2A300005D1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB21F6352513C2A300005D1D /* Build configuration list for PBXNativeTarget "QLTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB21F6362513C2A300005D1D /* Debug */,
+				FB21F6372513C2A300005D1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB21F6142513C29D00005D1D /* Project object */;
+}
